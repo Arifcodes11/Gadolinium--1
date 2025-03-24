@@ -1,0 +1,21 @@
+{
+  "name": "neon",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.14.0",
+    "@prisma/client": "^6.5.0",
+    "dotenv": "^16.4.7",
+    "hono": "^4.7.5",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/node": "^20.11.17",
+    "prisma": "^6.5.0",
+    "tsx": "^4.7.1"
+  }
+}
