@@ -1,6 +1,6 @@
 import { createHash } from "crypto";
 
-import { SignUpWithUsernameAndPasswordError, type SignUpWithUsernameAndPasswordResult } from "./+types";
+import { SignUpWithUsernameAndPasswordError, type SignUpWithUsernameAndPasswordResult, } from "./+types";
 import { prismaClient } from "../../extras/prisma";
 import jwt from "jsonwebtoken";
 import { jwtSecretKey } from "../../../environment";
