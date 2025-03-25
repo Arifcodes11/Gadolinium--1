@@ -31,7 +31,7 @@ hono.post("/authentication/sign-up", async (context) => {
 
     return context.json(
       {
-        mesage: "Unknown",
+        message: "Unknown",
       },
       500
     );
